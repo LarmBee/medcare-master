@@ -3250,24 +3250,25 @@ h6 {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  padding-top: 400px;
-  padding-bottom: 110px;
-  margin-top: -180px; }
+  padding-top: 2em;
+  padding-bottom: 8em;
+  margin-top: -10px; }
   @media (max-width: 991px) {
     .about-area {
-      padding-top: 250px; } }
-  .about-area:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 50%;
-    top: 0;
-    background: url(../img/banner/about1.png);
-    backgroundsize: auto;
-    z-index: 11;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: right bottom; }
+      padding-top: 0px; } }
+    .about-area:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 50%;
+      top: 0;
+      background: url(../img/background/bg_1.jpg);
+      background-size: contain;  /* Changed from auto */
+      background-repeat: no-repeat;
+      background-position: center right;  /* Adjusted positioning */
+      z-index: 11;
+      height: 100%;
+  }
     @media (max-width: 991px) {
       .about-area:after {
         display: none; } }
